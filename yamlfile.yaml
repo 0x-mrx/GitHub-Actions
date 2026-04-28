@@ -1,0 +1,63 @@
+# this file uses practical yaml syntax with comments to demonstrate various data types and structures in YAML
+
+name : Ahmed  #this is a name
+age : 25 #this is an age
+skills :
+  - Python #this is a skill
+  - JavaScript #this is another skill
+address :
+  city : Cairo #this is a city
+  country : Egypt #this is a country
+hobbies :
+  - Reading #this is a hobby  
+  - Traveling #this is another hobby
+education :
+  degree :  Bachelor's #this is a degree
+  university : Cairo University #this is a university   
+experience :
+  - company : ABC Company #this is a company
+    role : Software Engineer #this is a role
+    duration : 2 years #this is a duration  
+  - company : XYZ Company #this is another company
+    role : Frontend Developer #this is another role   
+    duration : 1 year #this is another duration
+languages :
+  - English #this is a language 
+  - Arabic #this is another language
+certifications :
+  - name : Certified Python Developer #this is a certification
+    issuer : Python Institute #this is an issuer
+    year : 2020 #this is a year
+  - name : Certified JavaScript Developer #this is another certification
+    issuer : JavaScript Institute #this is another issuer
+    year : 2021 #this is another year
+projects :
+  - name : Project A #this is a project
+    description : A web application for managing tasks #this is a description
+    technologies : 
+      - Django #this is a technology
+      - React #this is another technology
+  - name : Project B #this is another project
+    description : A mobile app for tracking fitness activities #this is another description
+    technologies :
+      - Flutter #this is another technology
+      - Firebase #this is yet another technology
+references :
+  - name : John Doe #this is a reference
+    relationship : Former Manager #this is a relationship
+    contact :
+      email :  test@0xmrx.co
+      phone : 123-456-7890 #this is a phone number
+  - name : Jane Smith #this is another reference
+    relationship : Colleague #this is another relationship
+    contact :
+      email : jane.smith@example.com #this is another email
+      phone : 098-765-4321 #this is another phone number  
+      path: "/home/ahmed/resume.pdf" #this is a path to a file
+      quote : "This is a quote from Ahmed's resume." #this is a quote   
+      single_quoted_string : 'This is a single quoted string.' #this is a single quoted string
+      float_value : 3.14 #this is a float value
+      boolean_value : true #this is a boolean value
+      null_value : null #this is a null value
+      employment_status : "Employed" #this is an employment status
+      salary : 50000 #this is a salary  
