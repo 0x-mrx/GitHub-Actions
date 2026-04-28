@@ -1,0 +1,26 @@
+on:
+    push:
+        branches:
+            - main
+            - 'release/*'
+        paths:
+          - "src/**"
+          - "test/**"
+          - "package.json"
+          - "package-lock.json"
+          - "tsconfig.json" 
+          - ".github/workflows/push-pr.yaml"
+    pull_request:
+        branches:
+            - main
+            - 'release/*'
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v2
+            
+            - name: run tests
+              run: npm install && npm test
