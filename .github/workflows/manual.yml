@@ -16,3 +16,8 @@ jobs:
         - name: Deploy application
           run: echo "Deploying the applicatin to ${{ inputs.environment }}"
           
+
+
+
+
+  
